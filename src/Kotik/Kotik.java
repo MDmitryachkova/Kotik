@@ -8,7 +8,7 @@ public class Kotik {
     public String food;
 
     public void liveAnotherDay() throws IOException {
-        int restHours = 10;
+        int restHours = 24;
         while (restHours > 0) {
             doHourActivity();
             restHours--;
